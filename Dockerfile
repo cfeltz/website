@@ -21,3 +21,5 @@ RUN pip install --no-cache-dir --upgrade pip \
     && pip install -e /opt/website/ 
 
 WORKDIR /opt/website
+
+RUN python /opt/website/website/main.py

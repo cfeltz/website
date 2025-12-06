@@ -1,4 +1,3 @@
-import contextlib
 import fastapi
 
 ROUTER = fastapi.APIRouter()
@@ -14,4 +13,5 @@ async def root():
     return content
 
 def register_route(router: fastapi.APIRouter):
-    router.add_api_route('/', root, methods=['GET'])
+    router.add_api_route('/', root, methods=['GET'], response_class=fastapi.responses.HTMLResponse)
+
