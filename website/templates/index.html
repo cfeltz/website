@@ -5,8 +5,47 @@
     </head>
 
     <body>
-        <h1>Hello from Chris Feltz!</h1>
+        <h1>Hey, I'm Chris! :D</h1>
         <img src="{{ url_for('static', path='image/mt_elinor.png') }}" width="512" height="337">
+        <div>
+            <br>
+            About me:
+
+            <p>
+            I am a Senior Software Engineer at Blizzard Entertainment and work on the World of Warcraft Server team. 
+            
+            <p>
+
+            What I Do:
+                <br>
+                    - Investigate server crashes
+                <br>
+                    - Maintain the WoW server hotfix pipeline
+                <br>
+                    - Deliver a fun play experience to players across the world!   
+            </p>
+
+            <p>
+            Other Fun Facts:
+                <br>
+                    - I've supported every patch and expansion launch of every version of WoW since patch 9.2.7 (Mainline Regional Auction House, Aug 2022). 
+                <br>
+                    - I've reviewed and deployed the second highest number of data hotfixes in WoW's history!
+                <br>
+                    - I think we should buff death knights and druids (this is relevant whenever you're reading this and for whatever version of the game you think is appropriate) :D
+            </p>
+
+            Contact:
+                <br>
+                <a href="https://www.linkedin.com/in/christopher-feltz/"><img src="{{ url_for('static', path='icon/linkedin.png') }}" width="30" height="30"></a>
+                <a href="mailto:christopher.m.feltz@gmail.com"><img src="{{ url_for('static', path='icon/mail.png') }}" width="30" height="30"></a>
+                <a href="https://github.com/cfeltz"><img src="{{ url_for('static', path='icon/github-mark.png') }}" width="30" height="30"></a>
+            <br>
+            <br>
+
+            <a href="{{ url_for('static', path='resource/cfeltz_Resume.pdf') }}">My Resume</a>
+
+        </div>
     </body>
 
 </html>

@@ -7,3 +7,13 @@ body {
 h1 { 
     font-family: monospace;
 }
+
+p { 
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+div {
+    font-size: 16px;
+    font-family: monospace;
+}
