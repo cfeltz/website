@@ -1,6 +1,8 @@
 import contextlib
 import fastapi
 
+from fastapi import templating
+
 from website.api import root
 
 
